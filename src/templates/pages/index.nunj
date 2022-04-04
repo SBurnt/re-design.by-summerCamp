@@ -3,6 +3,7 @@
 {% block content %}
 
 	<main class="main">
+		{% include "../blocks/full-img/full-img.nunj" %}
 		{# {% include "../blocks/form/form.nunj" %} #}
 	</main>
 

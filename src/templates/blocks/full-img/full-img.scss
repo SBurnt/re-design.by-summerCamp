@@ -1,0 +1,48 @@
+.full-img {
+  height: calc(100vh - 120px);
+
+  .container {
+    height: 100%;
+  }
+
+  .section__inner {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+    @include media("max", "md") {
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 15px;
+
+    color: #ffffff;
+
+    background: url(../../../assets/images/main/full-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: var(--fs-32-24);
+    line-height: 130%;
+  }
+
+  &__subtitle {
+    margin-bottom: 65px;
+
+    font-size: var(--fs-99-40);
+    text-align: center;
+  }
+}

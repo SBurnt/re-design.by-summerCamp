@@ -45,49 +45,59 @@ a:visited {
   color: $color-primary;
 }
 
+.yellow {
+  color: $color-yellow;
+}
+
+.pink {
+  color: $color-pink;
+}
+
 .btn {
   display: inline-block;
   width: max-content;
 
-  line-height: 100%;
+  line-height: 120%;
   color: $color-primary;
 
   background-color: transparent;
   border: none;
   outline: none;
 
-  &.red {
-    padding: 18px 49px;
+  &.blue {
+    min-width: 382px;
+    padding: 24px 50px;
 
     font-weight: 700;
-    font-size: var(--fs-20-18);
-    line-height: 120%;
+    font-size: var(--fs-18-16);
     color: #ffffff;
     text-transform: uppercase;
 
-    background: $color-red;
-    border-radius: 4px;
+    background: $color-blue-dark;
+    border-radius: 36px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 
     transition: all 0.1s ease-in;
 
     @include media("max", "md") {
-      padding: 16px 46px;
+      padding: 19px 46px;
     }
     @include media("max", "sm") {
       width: 100%;
-      padding: 16px;
+      min-width: auto;
     }
+
     &:hover {
-      box-shadow: 0 0 18px rgba(227, 7, 19, 0.4);
+      box-shadow: 0 0 18px rgba(0, 92, 246, 0.4);
     }
   }
 }
 
 .section__inner {
-  padding: 60px 0;
+  padding: 100px 0;
 
   @include media("max", "lg") {
-    padding: 50px 0;
+    padding: 45px 0;
   }
   @include media("max", "md") {
     padding: 40px 0;
@@ -101,36 +111,15 @@ a:visited {
 .section__title {
   display: block;
   width: max-content;
-  margin-bottom: 40px;
-  padding: 7px 17px;
+  margin-bottom: 70px;
 
   font-weight: 700;
-  font-size: var(--fs-16-14);
-  line-height: 140%;
+  font-size: var(--fs-60-18);
+  line-height: 120%;
   text-align: center;
-  color: $color-red;
-  text-transform: uppercase;
-
-  border: 2px solid $color-red;
-  border-radius: 40px;
 
   @include media("max", "md") {
     margin-bottom: 30px;
-    padding: 6px 14px;
-  }
-
-  &.left {
-    margin-right: auto;
-  }
-
-  &.right {
-    margin-left: auto;
-  }
-
-  &.white {
-    color: #ffffff;
-
-    border-color: #ffffff;
   }
 }
 
@@ -140,7 +129,7 @@ a:visited {
   font-weight: 300;
   font-size: var(--fs-35-22);
   line-height: 120%;
-  color: $color-grey;
+  color: $color-gray;
   text-transform: uppercase;
 
   strong {
