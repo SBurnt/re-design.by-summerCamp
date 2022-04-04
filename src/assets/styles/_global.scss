@@ -110,11 +110,10 @@ a:visited {
 
 .section__title {
   display: block;
-  width: max-content;
   margin-bottom: 70px;
 
   font-weight: 700;
-  font-size: var(--fs-60-18);
+  font-size: var(--fs-60-38);
   line-height: 120%;
   text-align: center;
 
@@ -145,5 +144,27 @@ a:visited {
     margin-left: auto;
 
     text-align: right;
+  }
+}
+
+.spots {
+  &-pink {
+    background-image: url(../../../assets/images/other/bg-spots/bg-spots-pink.svg);
+  }
+
+  &-white-01 {
+    background-image: url(../../../assets/images/other/bg-spots/bg-spots-white-01.svg);
+  }
+
+  &-white-02 {
+    background-image: url(../../../assets/images/other/bg-spots/bg-spots-white-02.svg);
+  }
+
+  &-blue {
+    background-image: url(../../../assets/images/other/bg-spots/bg-spots-blue.svg);
+  }
+
+  &-yellow {
+    background-image: url(../../../assets/images/other/bg-spots/bg-spots-yellow.svg);
   }
 }

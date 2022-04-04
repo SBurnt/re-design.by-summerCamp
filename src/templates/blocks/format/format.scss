@@ -84,8 +84,7 @@
     @include media("max", "lg") {
       max-width: none;
       max-height: 480px;
-    }
-    @include media("max", "md") {
+
       border-radius: 30px;
     }
   }
