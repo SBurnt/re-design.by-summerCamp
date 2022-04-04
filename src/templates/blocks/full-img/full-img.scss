@@ -30,6 +30,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 60px;
+
+		@include media("max", "md") {
+      border-radius: 30px;
+    }
   }
 
   &__title {
