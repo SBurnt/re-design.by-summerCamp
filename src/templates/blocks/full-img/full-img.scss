@@ -1,5 +1,11 @@
 .full-img {
   height: calc(100vh - 120px);
+  min-height: 600px;
+
+  @include media("max", "md") {
+    height: calc(100vh - 60px);
+    min-height: auto;
+  }
 
   .container {
     height: 100%;
@@ -31,7 +37,7 @@
     background-size: cover;
     border-radius: 60px;
 
-		@include media("max", "md") {
+    @include media("max", "md") {
       border-radius: 30px;
     }
   }
