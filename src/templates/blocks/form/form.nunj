@@ -6,7 +6,7 @@
 					<img class="form__img lazyload" data-src="assets/images/other/form-girl.png" loading="lazy" alt="">
 				</div>
 				<div class="form__content" id="form-scroll">
-					<span class="form__subtitle">Получить бесплатную консультацию или</span>
+					<span class="section__subtitle">Получить бесплатную консультацию или</span>
 					<h2 class="section__title">Записаться в лагерь</h2>
 					<form class="form__feedback" method="POST" data-netlify="true">
 						<label class="form__label">
