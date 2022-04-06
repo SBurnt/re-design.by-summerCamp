@@ -65,7 +65,8 @@ a:visited {
   outline: none;
 
   &.blue {
-    min-width: 382px;
+		width: 100%;
+    max-width: 382px;
     padding: 24px 50px;
 
     font-weight: 700;
@@ -80,7 +81,7 @@ a:visited {
     transition: all 0.1s ease-in;
 
     @include media("max", "md") {
-      padding: 19px 46px;
+      padding: 19px 20px;
     }
     @include media("max", "sm") {
       width: 100%;
@@ -110,7 +111,7 @@ a:visited {
 
 .section__title {
   display: block;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 
   font-weight: 700;
   font-size: var(--fs-60-38);
@@ -166,5 +167,13 @@ a:visited {
 
   &-yellow {
     background-image: url(../../../assets/images/other/bg-spots/bg-spots-yellow.svg);
+  }
+}
+
+.br-60-30 {
+  border-radius: 60px;
+
+  @include media("max", "lg") {
+    border-radius: 30px;
   }
 }

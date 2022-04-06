@@ -79,13 +79,9 @@
     margin-left: auto;
     overflow: hidden;
 
-    border-radius: 60px;
-
     @include media("max", "lg") {
       max-width: none;
       max-height: 480px;
-
-      border-radius: 30px;
     }
   }
 

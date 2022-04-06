@@ -1,10 +1,10 @@
 <section class="full-img">
 	<div class="container">
 		<div class="section__inner">
-			<div class="full-img__wrapper">
+			<div class="full-img__wrapper br-60-30">
 				<h2 class="full-img__title">Летний лагерь</h2>
 				<h2 class="full-img__subtitle">Design & <span class="pink">A</span><span class="yellow">R</span>T<br> camp</h2>
-				<button class="btn blue">УЗНАТЬ БОЛЬШЕ</button>
+				<button class="btn blue js-btn-scroll-to-form" data-scroll-block="form-scroll">УЗНАТЬ БОЛЬШЕ</button>
 			</div>
 		</div>
 	</div>

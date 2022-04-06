@@ -4,7 +4,7 @@
 @import "lib/swiper-bundle.min";
 // @import "lib/simplebar.min";
 // @import "lib/nouislider.min";
-// @import "lib/choices.min";
+@import "lib/choices.min";
 @import "constants";
 @import "lib/base";
 @import "global";
@@ -22,7 +22,7 @@
 @import "../../templates/blocks/info/info";
 @import "../../templates/blocks/format/format";
 @import "../../templates/blocks/activity/activity";
-// @import "../../templates/blocks/form/form";
+@import "../../templates/blocks/form/form";
 
 // ======= COMPONENTS =======
 @import "../../components/logo/logo";
