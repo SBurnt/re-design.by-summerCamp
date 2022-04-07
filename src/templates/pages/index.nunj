@@ -8,6 +8,7 @@
 		{% include "../blocks/format/format.nunj" %}
 		{% include "../blocks/activity/activity.nunj" %}
 		{% include "../blocks/form/form.nunj" %}
+		{% include "../blocks/programs/programs.nunj" %}
 	</main>
 
 {% endblock content %}
