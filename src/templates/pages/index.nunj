@@ -9,6 +9,7 @@
 		{% include "../blocks/activity/activity.nunj" %}
 		{% include "../blocks/form/form.nunj" %}
 		{% include "../blocks/programs/programs.nunj" %}
+		{% include "../blocks/summer/summer.nunj" %}
 	</main>
 
 {% endblock content %}

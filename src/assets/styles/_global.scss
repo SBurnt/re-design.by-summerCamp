@@ -53,6 +53,10 @@ a:visited {
   color: $color-pink;
 }
 
+.blue_light {
+  color: $color-blue-light;
+}
+
 .btn {
   display: inline-block;
   width: max-content;
@@ -179,6 +183,6 @@ a:visited {
 
 .main {
   background: url(../images/other/bg-circles.png) no-repeat;
+  background-position: center 200px;
   background-size: cover;
-	background-position: center;
 }
