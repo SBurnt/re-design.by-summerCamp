@@ -3,7 +3,7 @@
     display: grid;
     overflow: hidden;
 
-    background: url(../../../assets/images/other/bg-lattice.png) center/cover no-repeat, $bg-blue-liner;
+    background: url(../images/other/bg-lattice.png) center/cover no-repeat, $bg-blue-liner;
 
     @include media("max", "xl") {
       grid-template-columns: 1fr 2fr;

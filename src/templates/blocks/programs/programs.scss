@@ -36,6 +36,7 @@
 
     font-size: var(--fs-40-28);
     line-height: 120%;
+		z-index: 1;
 
     &::before {
       content: "";
@@ -47,7 +48,7 @@
       width: 75px;
       height: 75px;
 
-      background: url(../../../assets/images/ico/figures/ico-flower-3.svg) no-repeat;
+      background: url(../images/ico/figures/ico-flower-3.svg) no-repeat;
       background-size: contain;
 
       @include media("max", "md") {
