@@ -10,6 +10,7 @@
 		{% include "../blocks/form/form.nunj" %}
 		{% include "../blocks/programs/programs.nunj" %}
 		{% include "../blocks/summer/summer.nunj" %}
+		{% include "../blocks/schedule/schedule.nunj" %}
 		{% include "../blocks/summer2/summer2.nunj" %}
 	</main>
 
