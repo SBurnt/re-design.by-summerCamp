@@ -1,0 +1,98 @@
+.timetable {
+  overflow: hidden;
+
+  &__grass {
+    width: 100%;
+    max-width: 1365px;
+    height: 96px;
+    margin: 0 auto 60px;
+
+    background-image: url(../images/other/bg-grass.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: cover;
+  }
+
+  &__list {
+    display: flex;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 36px 15px;
+
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+
+    @include media("max", "md") {
+      padding: 15px;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__date {
+    margin-bottom: 23px;
+
+    font-weight: 500;
+    font-size: var(--fs-22-16);
+    line-height: 145%;
+    font-family: $raleway;
+    text-align: center;
+    color: $color-gray;
+
+    @include media("max", "md") {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__part {
+    margin-bottom: 25px;
+
+    font-size: var(--fs-32-20);
+    line-height: 130%;
+    text-align: center;
+
+    @include media("max", "md") {
+      margin-bottom: 19px;
+    }
+  }
+
+  &__descr {
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-size: var(--fs-20-16);
+    line-height: 150%;
+    font-family: $raleway;
+    color: $color-gray;
+
+    @include media("max", "md") {
+      margin-bottom: 0;
+    }
+  }
+
+  &__time {
+    margin-bottom: 33px;
+
+    font-size: var(--fs-24-18);
+    line-height: 130%;
+
+    @include media("max", "md") {
+      margin-bottom: 8px;
+    }
+  }
+
+  .btn {
+    display: block;
+    margin: 60px auto 0;
+
+    @include media("max", "md") {
+      margin-top: 30px;
+    }
+  }
+
+  .swiper-container {
+    overflow: visible;
+  }
+}
