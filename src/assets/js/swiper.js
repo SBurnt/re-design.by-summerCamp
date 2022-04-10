@@ -3,6 +3,8 @@ import Swiper from '../../../node_modules/swiper/swiper-bundle';
 
 const sliderActivity = document.querySelector('.js-slider-activity-init');
 const sliderTimetable = document.querySelector('.js-slider-timetable-init');
+const slidergalleryThumbs = document.querySelector('.js-slider-gallery-thumbs-init');
+const slidergallery = document.querySelector('.js-slider-gallery-init');
 
 if (sliderActivity) {
 	const swiper = new Swiper(sliderActivity, {
@@ -28,7 +30,7 @@ if (sliderTimetable) {
 		pauseOnMouseEnter: true,
 		speed: 800,
 		autoplay: {
-			delay: 2000,
+			delay: 4000,
 			disableOnInteraction: true,
 			pauseOnMouseEnter: true,
 		},
@@ -58,6 +60,51 @@ if (sliderTimetable) {
 				slidesPerView: 4,
 				spaceBetween: 30,
 			},
+		},
+	});
+}
+
+if (slidergalleryThumbs) {
+	const swiperThumbs = new Swiper(slidergalleryThumbs, {
+		// allowTouchMove: false,
+		spaceBetween: 0,
+		slidesPerView: 'auto',
+		touchRatio: 0.4,
+		centeredSlides: true,
+		slideToClickedSlide: true,
+		breakpoints: {
+			// when window width is >= 375px
+			768: {
+				slidesPerView: 2.8,
+				centeredSlidesBounds: true,
+			},
+			1024: {
+				slidesPerView: 3.5,
+				centeredSlidesBounds: true,
+			},
+			1280: {
+				slidesPerView: 4,
+				centeredSlidesBounds: true,
+				allowTouchMove: false,
+				centerInsufficientSlides: true,
+			},
+		},
+	});
+
+	const swiperPhoto = new Swiper(slidergallery, {
+		preloadImages: false,
+		lazy: true,
+		allowTouchMove: false,
+		spaceBetween: 0,
+		slidesPerView: 1,
+		autoHeight: true,
+		effect: 'fade',
+		speed: 150,
+		fadeEffect: {
+			crossFade: true,
+		},
+		thumbs: {
+			swiper: swiperThumbs,
 		},
 	});
 }

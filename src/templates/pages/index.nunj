@@ -13,6 +13,7 @@
 		{% include "../blocks/schedule/schedule.nunj" %}
 		{% include "../blocks/timetable/timetable.nunj" %}
 		{% include "../blocks/teachers/teachers.nunj" %}
+		{% include "../blocks/gallery/gallery.nunj" %}
 		{% include "../blocks/summer2/summer2.nunj" %}
 	</main>
 
