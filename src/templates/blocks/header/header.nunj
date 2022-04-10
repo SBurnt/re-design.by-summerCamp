@@ -6,7 +6,7 @@
 			<nav class="header__nav nav">
 				<ul class="nav__list">
 					<li class="nav__item">
-						<a class="nav__link js-btn-scroll-to-form" href="#" title="Программа" data-scroll-block="trainingProgram-scroll">Программа</a>
+						<a class="nav__link js-btn-scroll-to-form" href="#" title="Программа" data-scroll-block="program-scroll">Программа</a>
 					</li>
 					<li class="nav__item">
 						<a class="nav__link js-btn-scroll-to-form" href="#" title="Расписание" data-scroll-block="schedule-scroll">Расписание</a>

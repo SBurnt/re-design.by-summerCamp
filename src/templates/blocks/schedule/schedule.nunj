@@ -1,7 +1,7 @@
 <section class="schedule">
 	<div class="container">
 		<div class="section__inner">
-			<div class="schedule__wrapper br-60-30">
+			<div class="schedule__wrapper br-60-30" id="schedule-scroll">
 				<img class="schedule__img lazyload" src="" data-src="assets/images/other/bg-aircraft.png" width="343" height="343" loading="lazy" alt="картинка самалетики">
 				<span class="section__subtitle">Выберите подходящий для вас формат и программу</span>
 				<h2 class="section__title">Распорядок дня</h2>
