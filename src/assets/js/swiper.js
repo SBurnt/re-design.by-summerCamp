@@ -23,7 +23,7 @@ if (sliderActivity) {
 
 if (sliderTimetable) {
 	const swiper = new Swiper(sliderTimetable, {
-		slidesPerView: 1.3,
+		slidesPerView: 1.4,
 		spaceBetween: 15,
 		freeModeSticky: true,
 		grabCursor: true,
@@ -36,8 +36,12 @@ if (sliderTimetable) {
 		},
 		breakpoints: {
 			// when window width is >= 375px
-			375: {
-				slidesPerView: 1.4,
+			360: {
+				slidesPerView: 1.5,
+				spaceBetween: 15,
+			},
+			576: {
+				slidesPerView: 2.2,
 				spaceBetween: 15,
 			},
 			768: {
@@ -45,18 +49,24 @@ if (sliderTimetable) {
 				spaceBetween: 15,
 			},
 			1024: {
-				slidesPerView: 2.8,
-				spaceBetween: 30,
+				slidesPerView: 3.3,
+				spaceBetween: 15,
 			},
-			1280: {
-				slidesPerView: 3.5,
-				spaceBetween: 30,
+			1260: {
+				allowTouchMove: false,
+				grabCursor: false,
+				slidesPerView: 4,
+				spaceBetween: 15,
 			},
 			1490: {
+				allowTouchMove: false,
+				grabCursor: false,
 				slidesPerView: 4,
 				spaceBetween: 30,
 			},
 			1920: {
+				allowTouchMove: false,
+				grabCursor: false,
 				slidesPerView: 4,
 				spaceBetween: 30,
 			},

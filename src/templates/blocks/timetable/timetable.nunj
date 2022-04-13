@@ -8,10 +8,12 @@
 					<li class="swiper-slide timetable__item">
 						<span class="timetable__date">06 июня - 17 июня</span>
 						<span class="timetable__part">Первая смена</span>
-						<span class="timetable__descr">Неполный день:</span>
-						<span class="timetable__time">10:00 - 13:00 </span>
-						<span class="timetable__descr">Полный день:</span>
-						<span class="timetable__time">10:00 - 17:00 </span>
+						{# <div class=""> #}
+							<span class="timetable__descr">Неполный день:</span>
+							<span class="timetable__time">10:00 - 13:00 </span>
+							<span class="timetable__descr">Полный день:</span>
+							<span class="timetable__time">10:00 - 17:00 </span>
+						{# </div> #}
 					</li>
 					<li class="swiper-slide timetable__item">
 						<span class="timetable__date">20 июня - 01 июля</span>

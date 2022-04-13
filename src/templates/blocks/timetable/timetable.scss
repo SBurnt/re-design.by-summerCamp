@@ -4,13 +4,18 @@
   &__grass {
     width: 100%;
     max-width: 1365px;
-    height: 96px;
+    height: 90px;
     margin: 0 auto 60px;
 
     background-image: url(../images/other/bg-grass.png);
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: bottom;
     background-size: cover;
+
+		@include media("max", "md") {
+      margin-bottom: 30px;
+    }
   }
 
   &__list {
@@ -19,14 +24,17 @@
   &__item {
     display: flex;
     flex-direction: column;
-    padding: 36px 36px 15px;
+    padding: 36px 30px 15px;
 
     background: #ffffff;
     border-radius: 30px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 
+    @include media("max", "xxl") {
+      padding: 36px 19px 15px;
+    }
     @include media("max", "md") {
-      padding: 15px;
+      padding: 10px;
       padding-bottom: 5px;
     }
   }
@@ -59,7 +67,9 @@
   }
 
   &__descr {
+    display: block;
     margin-bottom: 8px;
+    margin-left: 40px;
 
     font-weight: 500;
     font-size: var(--fs-20-16);
@@ -69,17 +79,21 @@
 
     @include media("max", "md") {
       margin-bottom: 0;
+      margin-left: 30px;
     }
   }
 
   &__time {
+    display: block;
     margin-bottom: 33px;
+    margin-left: 40px;
 
     font-size: var(--fs-24-18);
     line-height: 130%;
 
     @include media("max", "md") {
       margin-bottom: 8px;
+      margin-left: 30px;
     }
   }
 

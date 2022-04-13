@@ -3,7 +3,7 @@
 		<div class="section__inner">
 			<div class="form__wrapper br-60-30">
 				<div class="form__img-wrap">
-					<img class="form__img lazyload" data-src="assets/images/other/form-girl.png" loading="lazy" alt="">
+					<img class="form__img lazyload" src="#" data-src="assets/images/other/form-girl.png" loading="lazy" alt="">
 				</div>
 				<div class="form__content" id="form-scroll">
 					<span class="section__subtitle">Получить бесплатную консультацию или</span>
@@ -47,7 +47,7 @@
 					</form>
 				</div>
 				<div class="form__img-wrap img-right">
-					<img class="form__img lazyload" data-src="assets/images/other/form-boy.png" loading="lazy" alt="">
+					<img class="form__img lazyload" src="#" data-src="assets/images/other/form-boy.png" loading="lazy" alt="">
 				</div>
 			</div>
 		</div>

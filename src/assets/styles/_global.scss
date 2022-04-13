@@ -152,6 +152,10 @@ a:visited {
 }
 
 .spots {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
   &-pink {
     background-image: url(../images/other/bg-spots/bg-spots-pink.svg);
   }

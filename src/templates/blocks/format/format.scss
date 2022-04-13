@@ -67,6 +67,8 @@
   }
 
   &__img-wrap {
+		position: relative;
+
     @include media("max", "lg") {
       margin-bottom: 35px;
     }
@@ -92,5 +94,22 @@
     height: 100%;
 
     object-fit: cover;
+  }
+
+  &__ico {
+    position: absolute;
+
+    &.sun {
+      top: -50px;
+      left: 25%;
+
+      width: 180px;
+      height: 180px;
+
+      @include media("max", "lg") {
+        width: 120px;
+        height: 120px;
+      }
+    }
   }
 }

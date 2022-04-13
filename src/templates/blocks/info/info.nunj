@@ -1,4 +1,4 @@
-<section class="info">
+<div class="info">
 	<div class="container">
 		<div class="info__wrapper br-60-30">
 			<ul class="info__list">
@@ -27,4 +27,4 @@
 			</ul>
 		</div>
 	</div>
-</section>
+</div>
