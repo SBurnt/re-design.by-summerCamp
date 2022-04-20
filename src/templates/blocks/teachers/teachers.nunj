@@ -15,7 +15,7 @@
 					</div>
 				</li>
 				<li class="teachers__item">
-					<div class="teachers__img-wrap spots spots-white">
+					<div class="teachers__img-wrap spots spots-white-01">
 						<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/teacher-03.png" width="307" height="380" loading="lazy" alt="Анита Савчук">
 					</div>
 					<div class="teachers__content">
